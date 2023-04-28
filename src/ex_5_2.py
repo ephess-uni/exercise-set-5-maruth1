@@ -16,6 +16,8 @@ except ImportError:
 
 if __name__ == "__main__":
 
+    import os
+
     # Use these predefined input / output files
     root_dir = get_repository_root()
     INFILE = root_dir / "data" / "ex_5_2-data.csv"
